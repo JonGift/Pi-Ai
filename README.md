@@ -10,3 +10,6 @@ Senior Capstone repo for integrating Raspberry Pi and neural computing stick for
 3. Run `conda activate piai-env`
 4. Run `piai.py`
 
+#### Exporting yml environment
+Run `conda env export > env.yml`
+
