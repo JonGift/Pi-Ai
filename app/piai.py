@@ -1,6 +1,8 @@
 print("Hello, World!")
 
+def sum(a + b):
+    return a+b
 
-def something(a, b):
-    print("something")
+
+def mul(a, b):
     return a*b
