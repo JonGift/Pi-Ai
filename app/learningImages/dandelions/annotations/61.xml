@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>61.png</filename>
+	<path>C:\Users\victo\Documents\capstone\Pi-Ai\app\learningImages\dandelions\train\61.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>299</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dandelion</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>26</xmin>
+			<ymin>32</ymin>
+			<xmax>480</xmax>
+			<ymax>278</ymax>
+		</bndbox>
+	</object>
+</annotation>
