@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>48.png</filename>
+	<path>/Users/isabelhinkle/Desktop/Pi-Ai/app/learningImages/clovers/train/48.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>540</width>
+		<height>540</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>clover</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>7</ymin>
+			<xmax>535</xmax>
+			<ymax>534</ymax>
+		</bndbox>
+	</object>
+</annotation>
