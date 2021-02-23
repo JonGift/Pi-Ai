@@ -1,0 +1,39 @@
+item {
+	id: 1
+	name: 'dandelion white'
+}
+
+item {
+	id: 2
+	name: 'dandelion yellow'
+}
+
+item {
+	id: 3
+	name: 'clover blossom white'
+}
+
+item {
+	id: 4
+	name: 'clover blossom purple'
+} 
+
+item {
+	id: 5
+	name: 'clover'
+}
+
+item {
+	id: 6
+	name: 'yellow wood sorrel'
+}
+
+item {
+	id: 7
+	name: 'bindweed'
+}
+
+item {
+	id: 8
+	name: 'bull thistle'
+}
