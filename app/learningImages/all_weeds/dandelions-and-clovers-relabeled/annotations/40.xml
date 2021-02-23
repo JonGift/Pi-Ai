@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images-2</folder>
+	<filename>40.png</filename>
+	<path>C:\Users\victo\Documents\capstone\practice1TF\models\research\object_detection\dandelions-and-clovers-relabeled\images-2\40.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3426</width>
+		<height>2653</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>clover</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>440</xmin>
+			<ymin>953</ymin>
+			<xmax>2869</xmax>
+			<ymax>2553</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>clover blossom white</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1485</xmin>
+			<ymin>479</ymin>
+			<xmax>2507</xmax>
+			<ymax>1350</ymax>
+		</bndbox>
+	</object>
+</annotation>

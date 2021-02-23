@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images-2</folder>
+	<filename>Bull+thistle+flower+head+-+Licher.png</filename>
+	<path>C:\Users\victo\Documents\capstone\practice1TF\models\research\object_detection\dandelions-and-clovers-relabeled\images-2\Bull+thistle+flower+head+-+Licher.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bull thistle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>240</xmin>
+			<ymin>42</ymin>
+			<xmax>781</xmax>
+			<ymax>752</ymax>
+		</bndbox>
+	</object>
+</annotation>
