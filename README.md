@@ -33,6 +33,7 @@ Run `conda env export > env.yml`
 15. From drone, connect battery and use remote connection
 16. View results in real time
 
+![alt text](https://github.com/Yamist/Pi-Ai/blob/master/docs/system-diagram.png)
 
 ## Resources
 
