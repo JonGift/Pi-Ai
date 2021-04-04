@@ -4,6 +4,7 @@
 2. Run the training script (train.py) with the path to the config file
     - EX: `python train.py --train_dir=training-dandelions-and-clovers_relabeled-2/ --pipeline_config_path=ssd_mobilenet_v1_pets.config --logtostderr`
     - Train until the loss reaches an accepted (low) value, but avoid overfitting
+    - Use command: `tensorboard --logdir training/` and enter url given in browser to view training results in real time.
 3. Freezing a Trained Model
     - Run export_inference_graph.py with the path to the training dir, config file, and the desired model.ckpt file
     - EX: `python export_inference_graph.py --input_type image_tensor --pipeline_config_path training_large_14/ssd_mobilenet_v1_pets.config --trained_checkpoint_prefix training_large_14/model.ckpt-14668 --output_directory graph_large_14`
