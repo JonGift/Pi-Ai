@@ -1,0 +1,38 @@
+<annotation>
+	<folder>metrics</folder>
+	<filename>00980g_01_mammoth_red.jpg</filename>
+	<path>C:\Users\victo\Documents\capstone\metrics\00980g_01_mammoth_red.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>387</width>
+		<height>387</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>clover blossom purple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>274</xmin>
+			<ymin>174</ymin>
+			<xmax>384</xmax>
+			<ymax>277</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>clover</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>246</ymin>
+			<xmax>270</xmax>
+			<ymax>387</ymax>
+		</bndbox>
+	</object>
+</annotation>

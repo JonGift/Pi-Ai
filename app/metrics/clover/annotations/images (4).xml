@@ -1,0 +1,26 @@
+<annotation>
+	<folder>bull_thistle</folder>
+	<filename>images (4).jpg</filename>
+	<path>C:\Users\victo\Documents\capstone\metrics\bull_thistle\images (4).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>200</width>
+		<height>252</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bull thistle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>84</xmin>
+			<ymin>26</ymin>
+			<xmax>158</xmax>
+			<ymax>129</ymax>
+		</bndbox>
+	</object>
+</annotation>
