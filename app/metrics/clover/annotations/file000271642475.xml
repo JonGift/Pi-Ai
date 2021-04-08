@@ -1,0 +1,38 @@
+<annotation>
+	<folder>dandelion_yellow</folder>
+	<filename>file000271642475.jpg</filename>
+	<path>C:\Users\victo\Documents\capstone\metrics\dandelion_yellow\file000271642475.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>540</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dandelion yellow</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>166</xmin>
+			<ymin>159</ymin>
+			<xmax>313</xmax>
+			<ymax>224</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>dandelion yellow</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>372</xmin>
+			<ymin>340</ymin>
+			<xmax>527</xmax>
+			<ymax>476</ymax>
+		</bndbox>
+	</object>
+</annotation>

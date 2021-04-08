@@ -1,0 +1,26 @@
+<annotation>
+	<folder>metrics</folder>
+	<filename>clares-dandelionfeature.jpg</filename>
+	<path>C:\Users\victo\Documents\capstone\metrics\clares-dandelionfeature.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>630</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dandelion yellow</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>353</xmin>
+			<ymin>100</ymin>
+			<xmax>811</xmax>
+			<ymax>556</ymax>
+		</bndbox>
+	</object>
+</annotation>

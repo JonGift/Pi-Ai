@@ -1,0 +1,26 @@
+<annotation>
+	<folder>metrics</folder>
+	<filename>images (18).jpg</filename>
+	<path>C:\Users\victo\Documents\capstone\metrics\images (18).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>274</width>
+		<height>184</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>yellow wood sorrrel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>161</xmin>
+			<ymin>72</ymin>
+			<xmax>179</xmax>
+			<ymax>89</ymax>
+		</bndbox>
+	</object>
+</annotation>
