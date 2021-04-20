@@ -7,6 +7,12 @@ TensorFlow GPU is compatible with NVIDIA GPUs
     - Python
     - GCC Compiler
 
+- For this project, the following environment was used:
+    - TensorFlow 1.14
+    - cudatoolkit 10.0.130
+    - cudnn 7.6.5
+    - NVIDIA GeForce GTX 1660 Ti 
+
 - This video describes the install process
     - https://www.youtube.com/watch?v=RplXYjxgZbw&list=PL0AA7mM1J4JtT23k6HFYOCq0EpCFsQi4a&index=4
 
