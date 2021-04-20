@@ -1,0 +1,26 @@
+<annotation>
+	<folder>dandelion_white</folder>
+	<filename>False-Dandelion5.jpg</filename>
+	<path>C:\Users\victo\Documents\capstone\metrics\dandelion_white\False-Dandelion5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1180</width>
+		<height>902</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dandelion white</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>288</xmin>
+			<ymin>127</ymin>
+			<xmax>919</xmax>
+			<ymax>728</ymax>
+		</bndbox>
+	</object>
+</annotation>

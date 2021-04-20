@@ -1,0 +1,38 @@
+<annotation>
+	<folder>clover_blossom_purple</folder>
+	<filename>images (11).jpg</filename>
+	<path>C:\Users\victo\Documents\capstone\metrics\clover_blossom_purple\images (11).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>168</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>clover blossom purple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>120</xmin>
+			<ymin>29</ymin>
+			<xmax>188</xmax>
+			<ymax>98</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>clover blossom purple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>20</xmin>
+			<ymin>48</ymin>
+			<xmax>72</xmax>
+			<ymax>95</ymax>
+		</bndbox>
+	</object>
+</annotation>

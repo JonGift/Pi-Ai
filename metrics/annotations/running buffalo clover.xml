@@ -1,0 +1,38 @@
+<annotation>
+	<folder>clover_blossom_white</folder>
+	<filename>running buffalo clover.jpg</filename>
+	<path>C:\Users\victo\Documents\capstone\metrics\clover_blossom_white\running buffalo clover.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>750</width>
+		<height>563</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>clover blossom white</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>269</xmin>
+			<ymin>100</ymin>
+			<xmax>429</xmax>
+			<ymax>227</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>clover</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>333</xmin>
+			<ymin>249</ymin>
+			<xmax>623</xmax>
+			<ymax>507</ymax>
+		</bndbox>
+	</object>
+</annotation>

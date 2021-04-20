@@ -1,0 +1,62 @@
+<annotation>
+	<folder>metrics</folder>
+	<filename>A1ZYyVgn1GL._AC_SL1500_.jpg</filename>
+	<path>C:\Users\victo\Documents\capstone\metrics\A1ZYyVgn1GL._AC_SL1500_.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1500</width>
+		<height>1500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>clover blossom purple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>592</xmin>
+			<ymin>88</ymin>
+			<xmax>959</xmax>
+			<ymax>468</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>clover blossom purple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>492</xmin>
+			<ymin>532</ymin>
+			<xmax>862</xmax>
+			<ymax>919</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>clover blossom purple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>259</xmin>
+			<ymin>5</ymin>
+			<xmax>567</xmax>
+			<ymax>123</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>clover blossom purple</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>873</xmin>
+			<ymin>1295</ymin>
+			<xmax>1145</xmax>
+			<ymax>1500</ymax>
+		</bndbox>
+	</object>
+</annotation>
