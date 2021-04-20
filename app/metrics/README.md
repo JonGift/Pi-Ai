@@ -7,6 +7,7 @@
 
 ## Optimized Model Detection Results
 using multi_channel_face_detection_demo (from open_model_zoo)
+**using .bin & .xml**
 - **Confidence Threshold**: 50%
 - **Total Images**: 42
 - **Ground Truth Detections**: 82
@@ -20,6 +21,7 @@ using multi_channel_face_detection_demo (from open_model_zoo)
 
 ## Full Model Detection Results
 using object detection tutorial (from TensorFlow models/research/object_detection)
+**using frozen_inference_graph.pb and .pbtxt**
 - **Confidence Threshold**: 50%
 - **Total Images**: 40
 - **Ground Truth Detections**: 101
