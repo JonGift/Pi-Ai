@@ -5,8 +5,7 @@ This README file will explain all the basic steps needed to set up your Raspberr
 1.	Download the current Raspberry Pi OS With Desktop image and flash a clean microSD with the software using the Raspberry Pi Imager or BalenaEtcher.
 https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit. For this project, Kernel version 5.10 was used. 
 2. Once the flash finishes, plug the sd card into the Pi and complete the setup process using the "Welcome to Raspberry Pi" setup wizard.
-3. After the reboot, open a new terminal and type the command ```sudo raspi-config```. Open "Interfacing Options" and enable the camera, SSH, and VNC. Select "finish" but do not reboot yet.
-Back at the main menu, open "Display" and change the resolution to 1920x1080. At this point, reboot the Pi.
+3. After the reboot, open a new terminal and type the command ```sudo raspi-config```. Open "Interface Options" and enable the camera, SSH, and VNC. Back at the main menu, open "Display" and change the resolution to 1920x1080. At this point, select "finish" and reboot the Pi.
 
 ## Section 2 - Setting Up And Testing The Raspberry Pi Camera Module
 At this point, you should have the camera enabled from step 3 of Section 1. If you did not complete step 3, please do so now. 
@@ -91,18 +90,27 @@ git clone https://github.com/openvinotoolkit/open_model_zoo.git
 cd open_model_zoo/demos
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-march=armv7-a" ..
-make
+make multi_channel_face_detection_demo
 ```
-3. After about 10 minutes, the demos will be ready to use.
+3. After about 3 minutes, the demo will be ready to use. If you want to build all the demos, instead of ```make multi_channel_face_detection_demo``` you can type only ```make```.
+4. (Optional) clone the Pi AI GitHub repo to get our custom models:
+```
+cd ~
+git clone https://github.com/Yamist/Pi-Ai.git
+```
+5. Now we can move back into the built demo directory
 ```
 cd armv7/Release
 ./multi_channel_face_detection_demo -m <path/to/.xml> -i 0 -d MYRIAD
 ```
-4. At this point, there will be a new window with the camera feed present. Press "esc" to exit the feed.
+6. At this point, there will be a new window with the camera feed present. Press "esc" to exit the feed.
 
 ## Section 7 - Create A Virtual Environment For OpenVINO (Optional - When Using Python)
+This section is not required to run the project demo. You can follow the instructions in this section if you plan to use any Python scripts with OpenVINO or OpenCV demos. 
+
 1. Install pip and two virtual environment packages:<br>
 ```
+cd ~
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python3 get-pip.py
 sudo pip install virtualenv virtualenvwrapper
@@ -130,8 +138,6 @@ mkvirtualenv openvino -p python3
 pip install numpy
 pip install "picamera[array]"
 pip install imutils
+pip install opencv-python
 ```
 **Note: Step 4 will automatically activate your openvino virtual environment. To deactivate, simply type "deactivate". To activate, type "workon openvino".**<br>
-
-## Section 8 - TBD (Running The Model With Python)
-TBD - Will be updated or removed depending on if we can get this working. 
