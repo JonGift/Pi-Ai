@@ -141,3 +141,6 @@ pip install imutils
 pip install opencv-python
 ```
 **Note: Step 4 will automatically activate your openvino virtual environment. To deactivate, simply type "deactivate". To activate, type "workon openvino".**<br>
+
+# What's Next?
+At this point our optimized model should be running and making detections on your system. If you'd like to train your own model, please follow the documentation located in the training-custom-model, training-with-gpu, and labeling-training-data folders. Afterwards, you'll need to optimize the model for use with OpenVINO, which can be found in the openVINO-openVINO-model-optimizer folder.
