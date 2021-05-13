@@ -100,7 +100,7 @@ git clone https://github.com/Yamist/Pi-Ai.git
 ```
 5. Now we can move back into the built demo directory
 ```
-cd armv7l/Release
+cd armv7/Release
 ./multi_channel_face_detection_demo -m ~/Pi-Ai/app/models/dandelions-clovers-bindweed-bullthistle-yellowWS/optimized-model/model.ckpt.xml -i 0 -d MYRIAD
 ```
 6. At this point, there will be a new window with the camera feed present. Press "esc" to exit the feed.
